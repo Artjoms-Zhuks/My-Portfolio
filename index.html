@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/css/mainstyle.css">
+
+   <!--Google Fonts-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+
+   <!--ScrollReveal -->
+   <script src="https://unpkg.com/scrollreveal"></script>
+
+
+   <!--FontAwesome-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+   <!--Send email from Javascript-->
+   <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+
+
+   <title>About me</title>
+</head>
+
+<body>
+   <header class="header">
+      <div class="container">
+         <div class="header_inner">
+            <div class="header_logo">Hello!</div>
+            <nav class="nav">
+               <a class="nav_link" href="#aboutMe" data-back="About me" data-front="About me"></a>
+               <a class="nav_link" href="#skills" data-back="Skills" data-front="Skills"></a>
+               <a class="nav_link" href="#contact" data-back="Contact" data-front="Contact"></a>
+            </nav>
+         </div>
+      </div>
+   </header>
+
+   <div class="intro">
+      <div class="container">
+         <div class="container_text_photo">
+            <div class="container_text">
+               <p class="intro_title">Hi! My name is Artem</p>
+               <p class="intro_text">I am a beginner Front-End Web Developer. Ready to absorb new knowledge and strive
+                  for the heights!
+               </p>
+               <div class="intro_socials">
+                  <a class="btn intro_resume" href="/cv/ArtjomZhuk.pdf" alt="Artem Zhuk Resume">Resume</a>
+                  <ul>
+                     <li>
+                        <a class="btn fa fa-linkedin fa-2x" href="https://linkedin.com/in/artjoms-zhuks"></a>
+                     </li>
+                     <li>
+                        <a class="btn fa fa-github fa-2x" href="https://github.com/Artjoms-Zhuks"></a>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="container_photo">
+               <img class="photo" src="picture/portret.png" alt="Artem Zhuk photo">
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <section class="section" id="aboutMe">
+      <div class="container">
+         <p class="section_suptext">About Me</p>
+         <div class="aboutMe_text">
+            <p>
+               Hello? So, it’s me. My name is Artem, I’m from Latvia. I have Bachelor’s degree in Computer Sciences. I am a beginner Frontend Developer, which is ready to study and every day explore new horizons.
+            </p>
+            <p>
+               My Computer Science studies and personal engagement in programming courses, as well as a great interest in technology field, provide me a good ground to grow in this field.
+            </p>
+            <p>
+               I am able to work independently, as well as part of a team. I have gained my teamwork and organizational skills through an active participation in student government, organizing events and serving as the head of students group. I am a fast learner, and my curiosity drives me to always discover new things and strive for the new ways to do things better.
+            </p>
+         </div>
+      </div>
+   </section>
+
+   <section class="section" id="skills">
+      <div class="container">
+         <p class="section_suptext">Skills</p>
+         <div class="SkillContainer">
+            <ul class="SkillGrid">
+               <li>
+                  <div class="ItemContainer">
+                     <img class="SkillIcon" src="/picture/skills/html.png">
+                     <p class="SkillText">Html</p>
+                  </div>
+               </li>
+               <li>
+                  <div class="ItemContainer">
+                     <img class="SkillIcon" src="/picture/skills/css.png">
+                     <p class="SkillText">Css</p>
+                  </div>
+               </li>
+               <li>
+                  <div class="ItemContainer">
+                     <img class="SkillIcon" src="/picture/skills/javascript.png">
+                     <p class="SkillText">JavaScript</p>
+                  </div>
+               </li>
+               <li>
+                  <div class="ItemContainer">
+                     <img class="SkillIcon" src="/picture/skills/sass.png">
+                     <p class="SkillText">Sass</p>
+                  </div>
+               </li>
+               <li>
+                  <div class="ItemContainer">
+                     <img class="SkillIcon" src="/picture/skills/github.png">
+                     <p class="SkillText">Github</p>
+                  </div>
+               </li>
+               <li>
+                  <div class="ItemContainer">
+                     <img class="SkillIcon" src="/picture/skills/vscode.png">
+                     <p class="SkillText">VS Code</p>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </section>
+
+   <section class="section" id="contact">
+      <div class="container">
+         <p class="section_suptext">Let's work together!</p>
+         <div class="contact_grid">
+            <div class="contact_info">
+               <div class="contact_text">
+                  <p>
+                     I am very excited about this opportunity and look forward to discussing the ways my skills may best serve your company.
+                  </p>
+                  <p>
+                     If you have any questions about me or my experience in IT, I'm available to grab a coffee and chat! Drop a comment or question, and thanks for stopping by!
+                  </p>
+               </div>
+               <a href="mailto:artjoms.zuks@gmail.com" class="contact_mail">artjoms.zuks@gmail.com <i
+                     class="fa fa-envelope" aria-hidden="true"></i></a>
+            </div>
+            <div class="contact_form">
+               <form action="mail.php" class="contactSendMessage">
+                  <p>Send me a message</p>
+                  <!-- ?Delete id or class-->
+                  <input type="text" class="name form_input" placeholder="Your Name" required>
+                  <input type="email" class="email form_input" placeholder="Your Email" required>
+                  <input type="text" class="subject form_input" placeholder="Your Subject" required>
+                  <textarea class="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                  <div class="button-area">
+                     <button class="btn" type="submit">Send</button>
+                  </div>
+               </form>
+            </div>
+         </div>
+   </section>
+
+
+   <!--JS Files-->
+   <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase.js"></script>
+   <script src="/js/scripts.js"></script>
+   
+</body>
+
+</html>
