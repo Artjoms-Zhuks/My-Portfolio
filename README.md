@@ -1,3 +1,35 @@
+# My Portfolio — v2.0
+
+A personal portfolio website built with React, fully redesigned from scratch.
+
+🔗 Live: https://Artjoms-Zhuks.github.io/My-Portfolio
+
+---
+
+## What's new in v2.0
+
+- Complete redesign with a modern dark theme
+- Fully responsive layout (mobile & desktop)
+- Sticky navigation bar
+- Backend & Frontend projects showcase
+- Skills & Education sections
+- Contact footer with GitHub and LinkedIn links
+
+---
+
+## Tech Stack
+
+- React
+- JavaScript / CSS3
+- GitHub Pages
+
+---
+
+## Version History
+
+- **v2.0** — Full redesign, responsive layout, new sections
+- **v1.0** — Initial release
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
