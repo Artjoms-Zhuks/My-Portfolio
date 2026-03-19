@@ -1,0 +1,192 @@
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.nav {
+  padding: 40px 0;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo { font-weight: 800; font-size: 1.5rem; letter-spacing: -1px; }
+.logo span { color: var(--accent); }
+
+.links a {
+  color: var(--text-dim);
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.links a:hover { color: var(--accent); }
+
+/* Hero */
+.hero { padding: 100px 0; max-width: 800px; }
+.badge {
+  display: inline-block;
+  padding: 5px 15px;
+  background: rgba(16, 185, 129, 0.1);
+  color: var(--accent);
+  border-radius: 50px;
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+
+h1 { font-size: 3.5rem; line-height: 1.1; margin-bottom: 30px; }
+.text-accent { color: var(--accent); }
+
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Общие стили для сетки проектов (в App.js) */
+.project-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; /* Расстояние между карточками */
+  margin-top: 40px;
+}
+/* Project Cards */
+.project-card {
+  background: var(--card-bg);
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-image { width: 50%; background: #1f2937; display: flex; align-items: center; justify-content: center; color: #4b5563; }
+.project-body { width: 50%; padding: 40px; }
+
+.tag-backend { color: #f87171; margin-right: 15px; font-size: 0.8rem; }
+.tag-frontend { color: #60a5fa; margin-right: 15px; font-size: 0.8rem; }
+.tag-db { color: #fbbf24; font-size: 0.8rem; }
+.tag-test { color: #24fb3d; font-size: 0.8rem; }
+
+/* Skills */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.skill-group h4 { color: var(--accent); margin-bottom: 10px; }
+.skill-group ul { list-style: none; padding: 0; color: var(--text-dim); }
+
+@media (max-width: 900px) {
+  .project-card { flex-direction: column; }
+  .project-image, .project-body { width: 100%; }
+  .skills-container { grid-template-columns: 1fr; }
+}
+
+.github-btn {
+  display: inline-block;
+  background: #24292f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.github-btn:hover {
+  background: #333;
+  border-color: var(--accent);
+}
+
+.highlight-group {
+  border-left: 3px solid var(--accent);
+  padding-left: 20px;
+  background: rgba(16, 185, 129, 0.05);
+  border-radius: 0 10px 10px 0;
+}
+
+.hero h1 .text-dim {
+  display: block;
+  opacity: 0.7;
+  margin-top: 10px;
+}
+
+.edu-card {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 30px;
+  border-radius: 12px;
+  border-left: 4px solid var(--accent); /* Зеленая полоска слева */
+  margin-top: 20px;
+}
+
+.edu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.edu-header h4 { margin: 0; font-size: 1.2rem; }
+.edu-date { color: var(--accent); font-weight: 600; font-size: 0.9rem; }
+.edu-inst { color: var(--text-main); font-weight: 500; margin: 5px 0; }
+.edu-desc { color: var(--text-dim); font-size: 0.9rem; }
+
+
+.footer {
+  padding: 80px 0; /* Больше места сверху и снизу */
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  margin-top: 50px;
+}
+
+.footer h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  color: var(--text-dim);
+  margin-bottom: 30px;
+}
+
+/* Стили для почты */
+.footer a[href^="mailto:"] {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Стили для контейнера соцсетей */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Расстояние между ссылками */
+  margin-top: 20px;
+}
+
+/* Стили для ссылок GitHub/LinkedIn */
+.social-links a {
+  color: var(--text-main);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.social-links a:hover {
+  color: var(--accent); /* Будет подсвечиваться при наведении */
+}
