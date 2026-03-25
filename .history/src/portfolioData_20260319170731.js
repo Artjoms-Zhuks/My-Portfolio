@@ -19,7 +19,7 @@ export const portfolioData = {
       tagsfrontend: ["React", "HTML", "CSS", "Javascript"],
       tagsdb: ["PostgreSQL"],
       githubUrl: "https://github.com/Artjoms-Zhuks/finance-manager-backend",
-      image: `${process.env.PUBLIC_URL}/Finance_manager.png`
+      image: '${process.env.PUBLIC_URL}/Finance_manager.png'
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ export const portfolioData = {
       tagsfrontend: ["HTML", "CSS", "Javascript"],
       tagstesting: ["JUnit 5", "AssertJ"],
       githubUrl: "https://github.com/Artjoms-Zhuks/Guessing-game",
-      image: `${process.env.PUBLIC_URL}/Guessing_game.png`
+      image: '${process.env.PUBLIC_URL}/Guessing_game.png'
     },
     {
       id: 3,
@@ -37,7 +37,7 @@ export const portfolioData = {
       description: "A simple console-based TODO application written in Java. Allows users to manage tasks with persistent storage between application runs.",
       tagsbackend: ["Java"],
       githubUrl: "https://github.com/Artjoms-Zhuks/TODOListConsoleApp",
-      image: `${process.env.PUBLIC_URL}/TODOListApp.png`
+      image: '${process.env.PUBLIC_URL}/TODOListApp.png'
     },
 
     // Сюда легко добавить второй проект в будущем:
@@ -51,7 +51,7 @@ export const portfolioData = {
       description: "This is my personal portfolio that you are currently viewing. The code can be viewed on GitHub.",
       tagsfrontend: ["HTML", "CSS", "Javascript", "React"],
       githubUrl: "https://github.com/Artjoms-Zhuks/My-Portfolio",
-      image: `${process.env.PUBLIC_URL}/MyPortfolioSite.png`
+      image: '${process.env.PUBLIC_URL}/MyPortfolioSite.png'
     },
     {
       id: 2,
@@ -59,7 +59,7 @@ export const portfolioData = {
       description: "A premium, minimalist photography portfolio prototype built with React and Vite. This project focuses on high-impact visual storytelling and a seamless user experience.",
       tagsfrontend: ["HTML", "CSS", "Javascript", "React", "Vite"],
       githubUrl: "https://github.com/Artjoms-Zhuks/Marcus.Studio-Visionary-Photography-Portfolio",
-      image: `${process.env.PUBLIC_URL}/Marcus_Studio.png`
+      image: '${process.env.PUBLIC_URL}/Marcus_Studio.png'
     },
     {
       id: 3,
@@ -67,7 +67,7 @@ export const portfolioData = {
       description: "I built a website based on a freely available project in Figma.\n\rFigma: https://www.figma.com/design/neuTfcYiWGjYMyJJO4ugwY/Tattoo-Studio-website--Community-?node-id=7-90&t=IodIDZ2wDf5wUwka-0",
       tagsfrontend: ["HTML", "CSS", "Javascript", "React", "Vite"],
       githubUrl: "https://github.com/Artjoms-Zhuks/TattooStudioFigma",
-      image: `${process.env.PUBLIC_URL}/Tattoo_Studio.png`
+      image: '${process.env.PUBLIC_URL}/Tattoo_Studio.png'
     }
     // Сюда легко добавить второй проект в будущем:
     // { id: 2, title: "Next Project", ... }
